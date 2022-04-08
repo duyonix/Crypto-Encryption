@@ -1,6 +1,6 @@
 #~/bin/bash
 set -e
-cd ../../LabSetup/Files
+cd ../../Labsetup/Files
 
 # encrypt the picture pic_original.bmp as
 

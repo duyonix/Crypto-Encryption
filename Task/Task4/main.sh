@@ -1,6 +1,6 @@
 #~/bin/bash
 set -e
-cd ../../LabSetup/Files
+cd ../../Labsetup/Files
 
 echo -n "hello world" > test.txt
 ls -ld test.txt # 11

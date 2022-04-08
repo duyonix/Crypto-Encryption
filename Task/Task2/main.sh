@@ -1,6 +1,6 @@
 #~/bin/bash
 set -e
-cd ../../LabSetup/Files
+cd ../../Labsetup/Files
 
 # CBC
 # encrypt

@@ -14,13 +14,13 @@ task5:
 	cd Task/Task5; bash main.sh
 
 task61:
-	cd Task/Task61; bash main.sh
+	cd Task/Task6/Task61; bash main.sh
 
 task62:
-	cd Task/Task62; bash main.sh
+	cd Task/Task6/Task62; bash main.sh
 
 task63:
-	cd Task/Task63; bash main.sh
+	cd Task/Task6/Task63; bash main.sh
 
 task7:
 	cd Task/Task7; bash main.sh

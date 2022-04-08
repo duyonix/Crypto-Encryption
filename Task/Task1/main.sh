@@ -1,9 +1,9 @@
 #~/bin/bash
 set -e
-cd ../../LabSetup/Files
+cd ../../Labsetup/Files
 
 # from File folder in LabSetup
-./freq.py # to see frequency of words
+python freq.py # to see frequency of words
 
 # from that, try bruteforce each letter to find out the real character
 tr 'abcdefghijklmnopqrstuvwxyz' 'cfmypvbrljxwiejdsgkhnawotu' <ciphertext.txt> output.txt

@@ -1,6 +1,6 @@
 encryption_mode = ['ecb', 'cbc', 'cfb', 'ofb']
 
-with open('plain.txt', 'rb') as f:
+with open('../../Labsetup/Files/task5_plain.txt', 'rb') as f:
     plain = f.read()
 
 for mode in encryption_mode:

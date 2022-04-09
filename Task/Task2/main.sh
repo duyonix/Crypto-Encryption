@@ -2,6 +2,16 @@
 set -e
 cd ../../Labsetup/Files
 
+# ECB
+# encrypt
+openssl enc  -aes-128-ecb  -e -in ciphertext.txt -out ecb_cipher.bin -K 00112233445566778889aabbccddeef
+
+# decrypt
+openssl enc  -aes-128-ecb  -d -in ecb_cipher.bin -out ecb_plain.txt -K 00112233445566778889aabbccddeef
+
+# is equal
+diff ecb_plain.txt ciphertext.txt # the same
+
 # CBC
 # encrypt
 openssl enc  -aes-128-cbc  -e -in ciphertext.txt -out cbc_cipher.bin -K 00112233445566778889aabbccddeeff -iv 0102030405060708

@@ -1,0 +1,9 @@
+*.bin
+Labsetup/Files/*
+!Labsetup/Files/words.txt
+!Labsetup/Files/ciphertext.txt
+!Labsetup/Files/*.py
+!Labsetup/Files/pic_original.bmp
+!Labsetup/Files/greenland.bmp
+!Labsetup/Files/task5_plain.txt
+!Labsetup/Files/task61_plain.txt
